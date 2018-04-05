@@ -35,7 +35,7 @@ if (isset($_POST['u'])){
     }
 	//change de password use md5 function 
     if (md5($key) != ""){
-        die("POR EJEMPL OAHROA TE ESTOY HACKEADNO");
+        die("POR EJEMPLO AHORA TE ESTOY HACKEADNO");
     }
     $uri = create_user($username);
     echo "CLIK DESCARGAR AHORA <a href=\"$uri\">$uri</a>";
